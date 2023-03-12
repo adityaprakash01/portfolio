@@ -39,7 +39,8 @@ html::-webkit-scrollbar-thumb{
 body{
     /* background:linear-gradient(#d8d8d8,#dddbdb) ; */
     /* background:linear-gradient(#ece9e9,#c9c7c7) ; */
-    background:linear-gradient(#ece9e9,#e7e7e7) ;
+    /* background:linear-gradient(#ece9e9,#e7e7e7) ; */
+    background: #fff;
     overflow-x: hidden;
     min-height: 100vh;
     overflow-x: hidden;
@@ -62,7 +63,8 @@ header{
     display: flex;
     align-items: center;
     /* background: #ddd; */
-    background:rgb(224, 223, 223);
+    /* background:rgb(224, 223, 223); */
+    background: #fff;
     flex-flow: column;
     text-align: center;
     justify-content: center;
@@ -100,7 +102,8 @@ header .navbar ul li a{
     display: block;
     padding: 0.9rem;
     margin: 1.5rem 0;
-    background: #ece9e9;
+    /* background: #ece9e9; */
+    background: #fff;
     color:black;
     font-size: 1.7rem;
     border-radius: 5rem;
@@ -324,7 +327,7 @@ header .navbar ul li a:hover{
     padding: .5rem 2rem;
     box-shadow: var(--box-shadow);
     border-radius: 4rem;
-    background: #ece9e9;
+    background: #fff;
     border: 1px solid purple;
 }
 .education .box-container .box h3{
@@ -503,7 +506,7 @@ header .navbar ul li a:hover{
    display: flex;
    height: 20rem;
    width: 23rem;
-   box-shadow: var(--box-shadow2);
+   box-shadow: var(--box-shadow3);
    border-radius: 1rem;
    margin: 1.6rem;
    overflow: hidden;
@@ -511,10 +514,12 @@ header .navbar ul li a:hover{
    flex-flow: column;
    text-align: center;
    justify-content: center;
-   background:rgb(68, 24, 230);
+   /* background:rgb(68, 24, 230); */
+   background: #fff;
    font-size: 1.8rem;
-   color: white;
+   color: blue;
    transition: 0.2s;
+   border: 1px solid blue;
    /* border: 1.5px solid rgb(68, 24, 230) ; */
 }
 .projects .box-container .box h4{
@@ -523,9 +528,9 @@ header .navbar ul li a:hover{
 }
 .projects .box-container .box:hover{
     background: none;
-    background: #ddd;
+    background: blue;
     box-shadow: var(--box-shadow4);
-    color: black;
+    color: white;
     transform: scale(0.9,0.9);
 }
 /* contact section strts */
@@ -552,7 +557,7 @@ header .navbar ul li a:hover{
     width: 100%;
     padding: 1rem;
     margin: .8rem 0;
-    background: rgb(224, 224, 224);
+    background: rgb(249, 248, 248);
     color: black;
     text-transform: none;
     font-size: 1.7rem;
